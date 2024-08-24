@@ -1,12 +1,24 @@
 /** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react";
+// import { css } from "@emotion/react";
+import styled from "@emotion/styled";
 
-const container = css`
-  background-color: #ff0000;
-  width: 10rem;
-  height: 10rem;
+const Button = styled.button`
+  background-color: black;
+  color: turquoise;
 `;
 
 export default function Emotion() {
-  return <div css={container}></div>;
+  return (
+    <div
+      css={{
+        backgroundColor: "hotpink",
+        "&:hover": {
+          color: "green",
+        },
+      }}
+    >
+      hi
+      <Button>good</Button>
+    </div>
+  );
 }

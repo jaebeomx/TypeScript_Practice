@@ -4,13 +4,15 @@ import "./App.css";
 import GuGuDan from "./GuGuDan";
 import WordRelay from "./WordRelay";
 import Emotion from "./Emotion";
+import NumberBaseball from "./NumberBaseball";
 
 function App() {
   return (
     <div>
-      <GuGuDan></GuGuDan>
-      <Emotion></Emotion>
+      {/* <GuGuDan></GuGuDan> */}
+      {/* <Emotion></Emotion> */}
       {/* <WordRelay></WordRelay> */}
+      {/* <NumberBaseball></NumberBaseball> */}
     </div>
   );
 }
